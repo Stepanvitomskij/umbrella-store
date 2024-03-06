@@ -1,0 +1,169 @@
+@media screen and (max-width: 1400px) {
+
+    header .head-top nav {
+        padding-right: 14px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+
+    header .head-top nav  {
+        padding-left: 0;
+    }
+
+    header .header .logo img {
+        max-width: 100%;
+    }
+
+    header .header .cart {
+        padding-left: 16px;
+    }
+
+    footer .logo figcaption {
+        font-size: 0.875rem;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 991px) {
+
+    header .head-top nav {
+        gap: 8px;
+    }
+
+    header .header .container > .row {
+        gap: 12px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    header .head-top .my-profile {
+        padding-left: 12px;
+    }
+
+    header .head-top .my-profile figure {
+        gap: 8px;
+    }
+
+    footer {
+        padding: 30px 0 20px;
+    }
+
+    footer .logo {
+        text-align: right;
+    }
+
+    footer .container > .row {
+        gap: 24px;
+    }
+
+    footer .logo figcaption {
+        max-width: 100%;
+        margin-left: auto;
+    }
+
+    footer .soc {
+        margin-top: 18px;
+    }
+
+    footer .soc nav {
+        margin-top: 22px;
+    }
+
+    footer .copyrights {
+        margin-top: 30px;
+    }
+}
+
+
+@media screen and (max-width: 576px){
+    header  .header .logo {
+        text-align: center;
+    }
+
+    header  .header form,
+    header  .header .cart{
+        justify-content: center;
+    }
+    
+    footer .logo {
+        text-align: center;
+    }
+
+
+    footer .logo .figcaption {
+        max-width: none;
+        margin-top: 18px;
+    }
+
+    footer .menu {
+        width: 260px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    footer form {
+        width: 230px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    footer .soc p {
+        text-align: center;
+    }
+
+    footer .soc nav {
+        gap: 28px;
+    }
+
+}
+
+
+@media screen and (max-width: 480px){
+
+    header  .header form,
+    header  .header .cart{
+        justify-content: center;
+        width: 100%;
+    }
+
+}
+
+
+@media screen and (max-width: 414px){
+
+    header .head-top .container > .row {
+        justify-content: center!important;
+    }
+    header .head-top nav,
+    header .head-top .my-profile {
+        width: 50%;
+    }
+
+    header .header .logo {
+        width: 150px;
+    }
+
+    header .header nav {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 375px){
+    header .head-top nav a{
+        display: block!important;
+    }
+
+}
+
+@media screen and (max-width: 320px){
+
+    header .header nav {
+        display: block!important;
+        width: 55%;
+        text-align: center;
+    }
+}
+
+    

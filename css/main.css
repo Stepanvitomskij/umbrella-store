@@ -1,0 +1,53 @@
+@media screen and (max-width: 991px) {
+    .subscribe {
+        padding-top: 68px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .items .boxes .box{
+        width: 235px;
+    }
+    .new-items h2,
+    .popular-items h2 {
+        margin-bottom: 0;
+    }
+
+    .benefits p {
+        font-size: 1rem;
+    }
+
+.subscribe h4 {
+    font-size: 1.6rem;
+}
+
+.subscribe h5 {
+    font-size: 25 1.2rem;
+}
+
+.subscribe input[type="submit"] {
+    margin-top: 16px;
+}
+
+}
+
+@media screen and (max-width: 480px) {
+    .subscribe h4 {
+        line-height: 27px;
+        font-size: 1.15rem;
+    }
+    
+    
+    .subscribe h5 {
+        line-height: 27px;
+        font-size: 0.9rem;
+    }
+
+}
+
+@media screen and (max-width: 375px) {
+    .benefits figure {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
